@@ -1,0 +1,38 @@
+{
+    
+    "parties": {
+      "seller": {
+        "name": "[SELLER_NAME]",
+        "address": "[SELLER_ADDRESS]"
+        
+      },
+      "buyer": {
+        "name": "[BUYER_NAME]",
+        "address": "[BUYER_ADDRESS]"
+       
+      }
+    },
+    "property_details": {
+      "apartment_number": "[APARTMENT_NUMBER]",
+      "building_name": "[BUILDING_NAME]",
+      "staircase": "[STAIRCASE]",
+      "floor": "[FLOOR]",
+      "city": "[CITY]",
+      "street_name": "[STREET_NAME]",
+      "street_number": "[STREET_NUMBER]",
+      "land_area": "[LAND_AREA]",
+      "shared_ownership": "[CO_OWNERSHIP_SHARE]"
+    },
+    
+    
+    "ownership_transfer": {
+      "sale_price": "[SALE_PRICE]",
+      "buyer_agreement": "true"
+    },
+    "signatures": {
+      
+      "buyer_signature": "[BUYER_SIGNATURE]",
+      "seller_signature": "[SELLER_SIGNATURE]"
+    }
+  }
+  

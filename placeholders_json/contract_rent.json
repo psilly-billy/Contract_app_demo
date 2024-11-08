@@ -1,0 +1,60 @@
+{
+    
+    "contract_date": "[DATE]",
+    "parties": {
+      "landlord": {
+        "name": "[LANDLORD_NAME]",
+        "address": "[LANDLORD_ADDRESS]",
+        "id_series": "[LANDLORD_ID_SERIES]",
+        "id_number": "[LANDLORD_ID_NUMBER]",
+        "issuing_authority": "[LANDLORD_ISSUING_AUTHORITY]",
+        "issue_date": "[LANDLORD_ID_ISSUE_DATE]"
+      },
+      "tenant": {
+        "name": "[TENANT_NAME]",
+        "address": "[TENANT_ADDRESS]",
+        "id_series": "[TENANT_ID_SERIES]",
+        "id_number": "[TENANT_ID_NUMBER]",
+        "issuing_authority": "[TENANT_ISSUING_AUTHORITY]",
+        "issue_date": "[TENANT_ID_ISSUE_DATE]"
+      }
+    },
+    "property_details": {
+      "address": "[PROPERTY_ADDRESS]",
+      "room_count": "[ROOM_COUNT]",
+      "furnishing": "[FURNISHING]"  
+    },
+    "rental_term": {
+      "start_date": "[RENTAL_START_DATE]",
+      "end_date": "[RENTAL_END_DATE]"
+    },
+    "rental_price": {
+      "monthly_rent": "[MONTHLY_RENT]",
+      "payment_method": "[PAYMENT_METHOD]",  
+      "payment_due_date": "[PAYMENT_DUE_DATE]"
+    },
+    "deposit": {
+      "amount": "[DEPOSIT_AMOUNT]"
+    },
+    "advance_payment": {
+      "amount": "[ADVANCE_PAYMENT_AMOUNT]",
+      "description": "[ADVANCE_PAYMENT_DESCRIPTION]"
+    },
+    "contract_termination": {
+      "penalty_fee": "[PENALTY_FEE]"
+    },
+    
+    
+    "handover_date": "[HANDOVER_DATE]",
+    "meter_readings": {
+      "hot_water": "[HOT_WATER_INDEX]",
+      "cold_water": "[COLD_WATER_INDEX]",
+      "electricity": "[ELECTRICITY_INDEX]"
+    },
+    "association_balance_due": "[ASSOCIATION_BALANCE_DUE]",
+    "signatures": {
+      "landlord": "[LANDLORD_SIGNATURE]",
+      "tenant": "[TENANT_SIGNATURE]"
+    }
+  }
+  
